@@ -114,7 +114,7 @@ li a {
 
 .midDeck {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 70%;
 }
 
@@ -214,4 +214,8 @@ li a {
     font-family: 'Roboto';
     font-size: 18px;
     color: #f9faf8;
+}
+
+* {
+    border: 1px solid red;
 }
